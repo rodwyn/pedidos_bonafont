@@ -1,0 +1,2019 @@
+2015/05/25 22:07:15 [error] [php] Undefined variable: session (/srv/www/htdocs/portolealtad/protected/views/layouts/column1.php:4)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): SiteController->renderFile()
+#1 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(120): SiteController->render()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#13 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/views/layouts/column1.php (4)
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (120)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/25 22:51:34 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (121)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/25 22:51:49 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (121)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/25 22:52:06 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (121)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/25 22:52:07 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:121)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (121)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/26 14:33:03 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:143)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (143)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/26 14:33:26 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:143)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (143)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/26 14:38:49 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:143)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (143)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/26 14:38:51 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:143)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (143)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/26 14:38:55 [error] [php] Undefined variable: controller (/srv/www/htdocs/portolealtad/protected/controllers/SiteController.php:143)
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#1 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/portolealtad/index.php(13): CWebApplication->run()
+REQUEST_URI=/portolealtad/index.php?r=site/login
+in /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php (143)
+in /srv/www/htdocs/portolealtad/index.php (13)
+2015/05/26 15:17:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:18:59 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:19:00 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:19:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+HTTP_REFERER=http://localhost/portolealtad/index.php?r=site/login
+---
+2015/05/26 15:21:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:07 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:09 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:09 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:09 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:09 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:12 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:22:22 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:23:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+---
+2015/05/26 15:23:49 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.companies" is not defined.' in /srv/www/htdocs/portolealtad/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/portolealtad/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('companies')
+#1 /srv/www/htdocs/portolealtad/protected/views/layouts/main.php(20): CWebUser->__get('companies')
+#2 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/portolealtad/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/portolealtad/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/portolealtad/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/portolealtad/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/portolealtad/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/portolealtad/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/portolealtad/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/portolealtad/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/portolealtad/
+HTTP_REFERER=http://localhost/portolealtad/index.php?r=site/login
+---
+2015/05/26 22:11:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /srv/www/htdocs/Nuevo/yii/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /srv/www/htdocs/Nuevo/yii/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /srv/www/htdocs/Nuevo/yii/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /srv/www/htdocs/Nuevo/yii/framework/base/CModule.php(394): CDbConnection->init()
+#3 /srv/www/htdocs/Nuevo/yii/framework/base/CApplication.php(458): CModule->getComponent('db')
+#4 /srv/www/htdocs/Nuevo/yii/framework/db/ar/CActiveRecord.php(637): CApplication->getDb()
+#5 /srv/www/htdocs/Nuevo/yii/framework/db/ar/CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 /srv/www/htdocs/Nuevo/yii/framework/db/ar/CActiveRecord.php(1522): CActiveRecord->getTableAlias(true)
+#7 /srv/www/htdocs/Nuevo/protected/components/UserIdentity.php(20): CActiveRecord->findByAttributes(Array)
+#8 /srv/www/htdocs/Nuevo/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#9 /srv/www/htdocs/Nuevo/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#10 /srv/www/htdocs/Nuevo/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#11 /srv/www/htdocs/Nuevo/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#12 /srv/www/htdocs/Nuevo/protected/controllers/SiteController.php(137): CModel->validate()
+#13 /srv/www/htdocs/Nuevo/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#14 /srv/www/htdocs/Nuevo/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /srv/www/htdocs/Nuevo/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /srv/www/htdocs/Nuevo/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /srv/www/htdocs/Nuevo/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /srv/www/htdocs/Nuevo/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /srv/www/htdocs/Nuevo/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /srv/www/htdocs/Nuevo/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /srv/www/htdocs/Nuevo/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /srv/www/htdocs/Nuevo/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#23 /srv/www/htdocs/Nuevo/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#24 /srv/www/htdocs/Nuevo/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#25 /srv/www/htdocs/Nuevo/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/Nuevo/index.php?r=site/login
+HTTP_REFERER=http://localhost/Nuevo/index.php?r=site/login
+---
+2015/05/26 22:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=gii
+---
+2015/05/26 22:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=gii
+---
+2015/05/26 22:46:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=gii
+---
+2015/05/26 23:03:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pedido/pedido".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pedido/pedido')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=pedido/pedido
+---
+2015/05/26 23:03:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pedido/pedido".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pedido/pedido')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=pedido/pedido
+---
+2015/05/26 23:03:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pedido/controller/index".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pedido/controll...')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=pedido/controller/index
+---
+2015/05/27 15:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=default/index
+HTTP_REFERER=http://localhost/pedidos/
+---
+2015/05/27 15:51:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "history/index".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('history/index')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=history/index
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/05/27 15:55:44 [error] [exception.CException] exception 'CException' with message 'ProductController cannot find the requested view "pedid".' in /srv/www/htdocs/pedidos/yii/framework/web/CController.php:878
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(782): CController->renderPartial('pedid', NULL, true)
+#1 /srv/www/htdocs/pedidos/protected/controllers/ProductController.php(10): CController->render('pedid')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): ProductController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('product/pedido')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=product/pedido
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/05/27 16:04:55 [error] [exception.CException] exception 'CException' with message 'ProductController cannot find the requested view "pedid".' in /srv/www/htdocs/pedidos/yii/framework/web/CController.php:878
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(782): CController->renderPartial('pedid', NULL, true)
+#1 /srv/www/htdocs/pedidos/protected/controllers/ProductController.php(10): CController->render('pedid')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): ProductController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('product/pedido')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=product/pedido
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/05/28 21:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "producto/getproduct".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/getpro...')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=producto/getproduct
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/05/28 21:27:03 [error] [exception.CException] exception 'CException' with message 'Property "Product.productoid" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('productoid')
+#1 /srv/www/htdocs/pedidos/protected/controllers/ProductController.php(22): CActiveRecord->__get('productoid')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): ProductController->actionGetProduct()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('getproduct')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('product/getprod...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=product/getproduct
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/05/28 21:30:18 [error] [php] Undefined variable: output (/srv/www/htdocs/pedidos/protected/controllers/ProductController.php:33)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): ProductController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): ProductController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): ProductController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=product/getproduct
+in /srv/www/htdocs/pedidos/protected/controllers/ProductController.php (33)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/28 21:31:10 [error] [php] Undefined variable: output (/srv/www/htdocs/pedidos/protected/controllers/ProductController.php:34)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): ProductController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): ProductController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): ProductController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=product/getproduct
+in /srv/www/htdocs/pedidos/protected/controllers/ProductController.php (34)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/28 21:37:11 [error] [exception.CException] exception 'CException' with message 'Property "Product.productoid" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('productoid')
+#1 /srv/www/htdocs/pedidos/protected/controllers/ProductController.php(29): CActiveRecord->__get('productoid')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): ProductController->actionGetProduct()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('getproduct')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('product/getprod...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=product/getproduct
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/05/29 18:00:43 [error] [php] Undefined index: total (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:10)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (10)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 18:34:06 [error] [php] Undefined index: json (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:10)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (10)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 20:06:15 [error] [php] Illegal string offset 'datos' (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:12)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (12)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 20:07:19 [error] [php] Illegal string offset 'id' (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:12)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (12)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 20:12:10 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:14)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (14)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 20:12:46 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:14)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (14)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 20:12:50 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:14)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (14)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 20:40:02 [error] [php] Array to string conversion (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:12)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (12)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/05/29 21:54:11 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:28)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (28)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/05/29 21:54:25 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:28)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (28)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/05/29 21:54:29 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:28)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (28)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/05/29 21:59:47 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:28)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (28)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/05/29 22:00:01 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:28)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (28)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/05/29 22:00:05 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:28)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (28)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/05/29 22:08:04 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/01 20:16:19 [error] [php] Object of class Stock could not be converted to int (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:44)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (44)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/02 21:38:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.ePdf" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/base/CModule.php(105): CComponent->__get('ePdf')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(86): CModule->__get('ePdf')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/02 21:42:58 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.ePdf" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/base/CModule.php(105): CComponent->__get('ePdf')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(86): CModule->__get('ePdf')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido
+HTTP_REFERER=http://localhost/pedidos/
+---
+2015/06/02 21:54:55 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.ePdf" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/base/CModule.php(105): CComponent->__get('ePdf')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(86): CModule->__get('ePdf')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/03 14:57:30 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:20)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid39
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (20)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 14:58:38 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:20)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid39
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (20)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 14:59:47 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:20)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid41
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (20)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 15:01:05 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:20)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (20)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 15:02:25 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:20)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (20)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 15:02:34 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:20)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (20)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 15:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pedido44".' in /srv/www/htdocs/pedidos/yii/framework/web/CController.php:483
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(270): CController->missingAction('pedido44')
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido44')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido44')
+#3 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido44
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/03 15:05:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pedido44".' in /srv/www/htdocs/pedidos/yii/framework/web/CController.php:483
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(270): CController->missingAction('pedido44')
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido44')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido44')
+#3 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido44
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/03 15:54:30 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 15:55:33 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 15:56:07 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 15:56:31 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:05:31 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:07:26 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:09:56 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "history/index".' in /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('history/index')
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pedidos/index.php?r=history/index
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 16:20:07 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:25:59 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:26:46 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:33:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('username')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(22): CWebUser->__get('username')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 16:35:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('username')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(22): CWebUser->__get('username')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 16:35:20 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:38:58 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:39)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (39)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 16:42:27 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:36)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (36)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 17:00:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.usertype" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('usertype')
+#1 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(138): CWebUser->__get('usertype')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/pedidos/index.php?r=site/login
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:00:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.menu" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('menu')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(21): CWebUser->__get('menu')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:01:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.menu" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('menu')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(21): CWebUser->__get('menu')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:01:32 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.menu" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('menu')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(21): CWebUser->__get('menu')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:01:33 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.menu" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('menu')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(21): CWebUser->__get('menu')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:02:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('username')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(22): CWebUser->__get('username')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:03:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('username')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(22): CWebUser->__get('username')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:03:45 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('username')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(22): CWebUser->__get('username')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+---
+2015/06/03 17:03:54 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.profiledsc" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('profiledsc')
+#1 /srv/www/htdocs/pedidos/protected/views/layouts/main.php(23): CWebUser->__get('profiledsc')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(126): require('/srv/www/htdocs...')
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/srv/www/htdocs...', Array, true)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(784): CBaseController->renderFile('/srv/www/htdocs...', Array, true)
+#5 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(57): CController->render('index')
+#6 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('')
+#16 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#17 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pedidos/index.php
+HTTP_REFERER=http://localhost/pedidos/index.php?r=site/login
+---
+2015/06/03 17:05:15 [error] [php] Undefined variable: profile (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:54)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (54)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 17:39:57 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/components/UserIdentity.php:48)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /srv/www/htdocs/pedidos/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /srv/www/htdocs/pedidos/protected/controllers/SiteController.php(137): LoginForm->validate()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#6 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /srv/www/htdocs/pedidos/yii/framework/web/filters/CInlineFilter.php(58): SiteController->filterAccessControl()
+#9 /srv/www/htdocs/pedidos/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=site/login
+in /srv/www/htdocs/pedidos/protected/components/UserIdentity.php (48)
+in /srv/www/htdocs/pedidos/protected/models/LoginForm.php (52)
+in /srv/www/htdocs/pedidos/protected/controllers/SiteController.php (137)
+2015/06/03 21:23:12 [error] [exception.CException] exception 'CException' with message 'Property "Company.city" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('city')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(34): CActiveRecord->__get('city')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido/orde...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/53
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/03 21:27:48 [error] [exception.CException] exception 'CException' with message 'Property "Company.city" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('city')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(34): CActiveRecord->__get('city')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido/orde...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/53
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/03 22:23:43 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:49)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/55
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (49)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 22:24:13 [error] [exception.CException] exception 'CException' with message 'Property "Customer.customerlegalentity" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('customerlegalen...')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(49): CActiveRecord->__get('customerlegalen...')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido/orde...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/56
+HTTP_REFERER=http://localhost/pedidos/index.php?r=pdf/pedido/orderid/55
+---
+2015/06/03 22:38:44 [error] [php] Trying to get property of non-object (/srv/www/htdocs/pedidos/protected/controllers/PdfController.php:54)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): PdfController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): PdfController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): PdfController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/58
+in /srv/www/htdocs/pedidos/protected/controllers/PdfController.php (54)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/03 22:39:09 [error] [exception.CException] exception 'CException' with message 'Property "Customer.customercontact" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('customercontact')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(54): CActiveRecord->__get('customercontact')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido/orde...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/59
+HTTP_REFERER=http://localhost/pedidos/index.php?r=pdf/pedido/orderid/58
+---
+2015/06/04 14:43:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'price' doesn't have a default value. The SQL statement executed was: INSERT INTO `orderproduct` (`orderid`, `productid`, `quantity`) VALUES (:yp0, :yp1, :yp2).
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (41)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/04 14:43:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1364 Field 'price' doesn't have a default value. The SQL statement executed was: INSERT INTO `orderproduct` (`orderid`, `productid`, `quantity`) VALUES (:yp0, :yp1, :yp2)' in /srv/www/htdocs/pedidos/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /srv/www/htdocs/pedidos/protected/controllers/OrderController.php(41): CActiveRecord->save()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): OrderController->actionSaveOrder()
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('saveorder')
+#8 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('order/saveorder')
+#9 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pedidos/index.php?r=order/saveorder
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/04 15:15:09 [error] [exception.CDbException] exception 'CDbException' with message 'Table "product" does not have a column named "orderid".' in /srv/www/htdocs/pedidos/yii/framework/db/schema/CDbCommandBuilder.php:697
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(1540): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(19): CActiveRecord->findAllByAttributes(Array)
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido/orde...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/72
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/04 15:28:22 [error] [exception.CException] exception 'CException' with message 'Property "Orderproduct.product" is not defined.' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('product')
+#1 /srv/www/htdocs/pedidos/protected/controllers/PdfController.php(79): CActiveRecord->__get('product')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): PdfController->actionPedido()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('pedido')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pdf/pedido/orde...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=pdf/pedido/orderid/76
+HTTP_REFERER=http://localhost/pedidos/index.php
+---
+2015/06/04 20:14:20 [error] [php] Undefined index: orderid (/srv/www/htdocs/pedidos/protected/controllers/OrderController.php:80)
+Stack trace:
+#0 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): OrderController->runAction()
+#1 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#2 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): OrderController->run()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /srv/www/htdocs/pedidos/index.php(13): CWebApplication->run()
+REQUEST_URI=/pedidos/index.php?r=order/getproduct
+in /srv/www/htdocs/pedidos/protected/controllers/OrderController.php (80)
+in /srv/www/htdocs/pedidos/index.php (13)
+2015/06/09 16:55:48 [error] [exception.CException] exception 'CException' with message 'OrderController and its behaviors do not have a method or closure named "loadModel".' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /srv/www/htdocs/pedidos/protected/controllers/OrderController.php(120): CComponent->__call('loadModel', Array)
+#1 /srv/www/htdocs/pedidos/protected/controllers/OrderController.php(120): OrderController->loadModel('000051')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): OrderController->actionSetStatus()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('setstatus')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('order/setstatus...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=order/setstatus/orderid/000051/statusid/[object%20Object]
+HTTP_REFERER=http://localhost/pedidos/
+---
+2015/06/09 17:01:52 [error] [exception.CException] exception 'CException' with message 'OrderController and its behaviors do not have a method or closure named "loadModel".' in /srv/www/htdocs/pedidos/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /srv/www/htdocs/pedidos/protected/controllers/OrderController.php(124): CComponent->__call('loadModel', Array)
+#1 /srv/www/htdocs/pedidos/protected/controllers/OrderController.php(124): OrderController->loadModel('000053')
+#2 /srv/www/htdocs/pedidos/yii/framework/web/actions/CInlineAction.php(49): OrderController->actionSetStatus()
+#3 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /srv/www/htdocs/pedidos/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(282): CController->run('setstatus')
+#7 /srv/www/htdocs/pedidos/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('order/setstatus...')
+#8 /srv/www/htdocs/pedidos/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /srv/www/htdocs/pedidos/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pedidos/index.php?r=order/setstatus/orderid/000053/statusid/[object%20Object]
+HTTP_REFERER=http://localhost/pedidos/
+---
